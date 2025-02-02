@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: gray;
+    color: black;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Password Screen */
+#password-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#password-screen img {
+    width: 150px;
+}
+
+#password-input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    width: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: black;
+    display: none;
+}
+
+ul li {
+    padding: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.full-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Clothing Section */
+.clothing-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.clothing-item {
+    position: relative;
+    text-align: center;
+}
+
+.clothing-img {
+    width: 200px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.clothing-item:hover .clothing-img {
+    transform: scale(1.05);
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Cart Icon */
+.cart-icon {
+    font-size: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introvert Clothing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Password-Protected Section -->
+    <div id="password-screen">
+        <img src="photo/3dgifmaker55344.gif" class="logo" alt="Introvert Clothing Logo">
+        <input type="password" id="password-input" placeholder="Enter Password">
+        <button onclick="checkPassword()">Submit</button>
+    </div>
+
+    <!-- Main Content (Hidden Until Correct Password) -->
+    <div id="main-content" class="hidden">
+        
+        <!-- Navbar -->
+        <nav>
+            <img src=""logo" alt="Introvert Clothing Logo">
+            <div class="menu-icon" onclick="toggleMenu()">☰</div>
+            <ul id="menu" class="hidden">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="cart-icon">🛒</div>
+        </nav>
+
+        <!-- Full-Screen Image -->
+        <div class="hero-section">
+            <img src="photo/Download.jpg" class="full-image" alt="Fashion Banner">
+        </div>
+
+        <!-- Clothing Section -->
+        <section class="clothing-section">
+            <div class="clothing-item">
+                <img src="photo/Adobe Express - file (1).png" class="clothing-img" data-alt="clothing1-alt.jpg">
+                <p class="clothing-name">"Fear of Trust" Hoodie</p>
+                <p class="clothing-price">$82.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="clothing-item">
+                <img src="photo/Adobe Express - file.png" class="clothing-img" data-alt="clothing2-alt.jpg">
+                <p class="clothing-name">"Fear of Trust" Sweats</p>
+                <p class="clothing-price">$41.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="clothing-item">
+                <img src="photo/Remove background project.png" class="clothing-img" data-alt="clothing3-alt.jpg">
+                <p class="clothing-name">"Fear of Trust" Tracksuit</p>
+                <p class="clothing-price">$125.00</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
